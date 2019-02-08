@@ -39,8 +39,8 @@ nextQuestionButton.addEventListener('click', function() {
     if (questionIndex < questionsArray.length) {
         let newQuestion = questionsArray[questionIndex];
         currentQuestion.innerHTML = " ";
-        option_1.style.backgroundColor = "white";
-        option_2.style.backgroundColor ="white";
+        option_1.style.backgroundColor = "initial";
+        option_2.style.backgroundColor ="initial";
         currentQuestion.innerHTML = newQuestion;
         currentQuestion.innerText = newQuestion.questionString;
         option_1.innerText = newQuestion.answerChoices[0];
