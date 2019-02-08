@@ -23,9 +23,6 @@ const questionsArray = [
     new Question("Emperor Nero played what instrument while watching Rome burn?",["Bugle","Lyre"],1)
 ]
 
-
-
-
 let questionIndex = 0;
 
 let newQuestion = questionsArray[questionIndex];
@@ -56,12 +53,12 @@ nextQuestionButton.addEventListener('click', function() {
         } else if (currentScore == 400) {
             document.querySelector('.results').innerText = "THE EMPEROR IS IMPRESSED";
         } else if (currentScore == 300) {
-            document.querySelector('.results').innerText = "CESAR FROWNS AT YOU";
+            document.querySelector('.results').innerText = "CAESAR FROWNS AT YOU";
         }else if (currentScore == 200) {
-            document.querySelector('.results').innerText = "CESAR FROWNS AT YOU";
+            document.querySelector('.results').innerText = "CAESAR FROWNS AT YOU";
         }
         else if (currentScore == 100) {
-            document.querySelector('.results').innerText = "CESAR FROWNS AT YOU";
+            document.querySelector('.results').innerText = "CAESAR FROWNS AT YOU";
         }  else if (currentScore == 000) {
             document.querySelector('.results').innerText = "YOU'RE LITERALLY SO BAD";
         } 
