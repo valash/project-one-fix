@@ -34,8 +34,9 @@ main {
     border-radius: 25px;
     text-align: center;
     padding: 65px;
-    background-color:rgba(0, 0, 0, 0.4);
-    color: white;
+    background-color:white;
+    color: black;
+    color: black;
     text-transform: uppercase;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -48,6 +49,8 @@ main {
     align-items: flex-end;
     margin: 20px;
     min-width: 50%;
+    color: white;
+
     
 }
 .questions:hover {
@@ -62,8 +65,8 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: white;
+    background-color:white;
+    color: black;
     width: 65%;
     margin: 10px 0;
     border: 1px solid black;
@@ -81,7 +84,8 @@ main {
     border-radius: 25px;
     text-align: center;
     padding: 30px;
-    background-color:rgba(0, 0, 0, 0.4);
+    background-color:white;
+    color: black;
     text-transform: uppercase;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
