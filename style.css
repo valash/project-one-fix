@@ -18,7 +18,7 @@ main {
 .div-container {
     display:flex;
     min-height:75vh;
-    background-image: url('../imgs/soc1.jpg');
+    background-image: url("soc1.jpg");
     background-size: cover;
     background-repeat: round;
     align-items: center;
